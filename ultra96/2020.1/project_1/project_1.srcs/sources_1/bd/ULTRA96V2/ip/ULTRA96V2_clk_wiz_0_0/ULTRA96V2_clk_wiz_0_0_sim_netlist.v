@@ -1,10 +1,10 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
-// Date        : Mon Mar  1 15:47:44 2021
-// Host        : ubuv1804 running 64-bit Ubuntu 18.04.4 LTS
+// Tool Version: Vivado v.2020.1.1 (lin64) Build 2960000 Wed Aug  5 22:57:21 MDT 2020
+// Date        : Sat Jan  8 14:48:10 2022
+// Host        : kd-client-b550-Asrock running 64-bit Ubuntu 20.04.3 LTS
 // Command     : write_verilog -force -mode funcsim
-//               /home/training/git/avnet/hdl/Projects/ultra96v2_oob/ULTRA96V2_2020_1/ULTRA96V2.srcs/sources_1/bd/ULTRA96V2/ip/ULTRA96V2_clk_wiz_0_0/ULTRA96V2_clk_wiz_0_0_sim_netlist.v
+//               /home/kd/vivado_test/ultra96/2020.1/project_1/project_1.srcs/sources_1/bd/ULTRA96V2/ip/ULTRA96V2_clk_wiz_0_0/ULTRA96V2_clk_wiz_0_0_sim_netlist.v
 // Design      : ULTRA96V2_clk_wiz_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.

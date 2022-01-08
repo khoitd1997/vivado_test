@@ -1,8 +1,8 @@
 --Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
---Date        : Mon Mar  1 15:37:50 2021
---Host        : ubuv1804 running 64-bit Ubuntu 18.04.4 LTS
+--Tool Version: Vivado v.2020.1.1 (lin64) Build 2960000 Wed Aug  5 22:57:21 MDT 2020
+--Date        : Sat Jan  8 14:44:29 2022
+--Host        : kd-client-b550-Asrock running 64-bit Ubuntu 20.04.3 LTS
 --Command     : generate_target ULTRA96V2_wrapper.bd
 --Design      : ULTRA96V2_wrapper
 --Purpose     : IP block netlist
@@ -48,9 +48,6 @@ architecture STRUCTURE of ULTRA96V2_wrapper is
     ls_mezz_uart1_tx : out STD_LOGIC;
     ls_mezz_int : in STD_LOGIC_VECTOR ( 1 downto 0 );
     ls_mezz_rst : out STD_LOGIC_VECTOR ( 1 downto 0 );
-    fan_pwm_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
-    wifi_en_led_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
-    bt_en_led_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
     ls_mezz_pwm0 : out STD_LOGIC_VECTOR ( 0 to 0 );
     ls_mezz_pwm1 : out STD_LOGIC_VECTOR ( 0 to 0 );
     bt_ctsn : in STD_LOGIC;
@@ -64,7 +61,10 @@ architecture STRUCTURE of ULTRA96V2_wrapper is
     hs_mezz_dsi_clk : out STD_LOGIC_VECTOR ( 1 downto 0 );
     hs_mezz_dsi_d : out STD_LOGIC_VECTOR ( 7 downto 0 );
     hs_mezz_hsic_str : out STD_LOGIC_VECTOR ( 0 to 0 );
-    hs_mezz_hsic_d : out STD_LOGIC_VECTOR ( 0 to 0 )
+    hs_mezz_hsic_d : out STD_LOGIC_VECTOR ( 0 to 0 );
+    bt_en_led_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
+    wifi_en_led_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 );
+    fan_pwm_tri_o : out STD_LOGIC_VECTOR ( 0 to 0 )
   );
   end component ULTRA96V2;
 begin

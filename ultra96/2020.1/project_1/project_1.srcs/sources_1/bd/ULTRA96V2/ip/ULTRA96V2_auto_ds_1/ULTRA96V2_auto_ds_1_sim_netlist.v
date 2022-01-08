@@ -1,18 +1,18 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
-// Date        : Mon Mar  1 15:49:29 2021
-// Host        : ubuv1804 running 64-bit Ubuntu 18.04.4 LTS
-// Command     : write_verilog -force -mode funcsim
-//               /home/training/git/avnet/hdl/Projects/ultra96v2_oob/ULTRA96V2_2020_1/ULTRA96V2.srcs/sources_1/bd/ULTRA96V2/ip/ULTRA96V2_auto_ds_1/ULTRA96V2_auto_ds_1_sim_netlist.v
-// Design      : ULTRA96V2_auto_ds_1
+// Tool Version: Vivado v.2020.1.1 (lin64) Build 2960000 Wed Aug  5 22:57:21 MDT 2020
+// Date        : Sat Jan  8 14:48:38 2022
+// Host        : kd-client-b550-Asrock running 64-bit Ubuntu 20.04.3 LTS
+// Command     : write_verilog -force -mode funcsim -rename_top ULTRA96V2_auto_ds_1 -prefix
+//               ULTRA96V2_auto_ds_1_ ULTRA96V2_auto_ds_0_sim_netlist.v
+// Design      : ULTRA96V2_auto_ds_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
 // Device      : xczu3eg-sbva484-1-i
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "ULTRA96V2_auto_ds_1,axi_dwidth_converter_v2_1_21_top,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* X_CORE_INFO = "axi_dwidth_converter_v2_1_21_top,Vivado 2020.1" *) 
+(* CHECK_LICENSE_TYPE = "ULTRA96V2_auto_ds_0,axi_dwidth_converter_v2_1_21_top,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* X_CORE_INFO = "axi_dwidth_converter_v2_1_21_top,Vivado 2020.1.1" *) 
 (* NotValidForBitStream *)
 module ULTRA96V2_auto_ds_1
    (s_axi_aclk,
@@ -352,7 +352,6 @@ module ULTRA96V2_auto_ds_1
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_data_fifo_v2_1_20_axic_fifo" *) 
 module ULTRA96V2_auto_ds_1_axi_data_fifo_v2_1_20_axic_fifo
    (dout,
     empty,
@@ -1020,7 +1019,6 @@ module ULTRA96V2_auto_ds_1_axi_data_fifo_v2_1_20_axic_fifo__parameterized0__xdcD
         .wrap_need_to_split_q(wrap_need_to_split_q));
 endmodule
 
-(* ORIG_REF_NAME = "axi_data_fifo_v2_1_20_fifo_gen" *) 
 module ULTRA96V2_auto_ds_1_axi_data_fifo_v2_1_20_fifo_gen
    (dout,
     empty,
@@ -6952,7 +6950,6 @@ module ULTRA96V2_auto_ds_1_axi_data_fifo_v2_1_20_fifo_gen__parameterized0__xdcDu
         .O(s_axi_wready_INST_0_i_2_n_0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_dwidth_converter_v2_1_21_a_downsizer" *) 
 module ULTRA96V2_auto_ds_1_axi_dwidth_converter_v2_1_21_a_downsizer
    (dout,
     empty,
@@ -12197,7 +12194,6 @@ module ULTRA96V2_auto_ds_1_axi_dwidth_converter_v2_1_21_a_downsizer__parameteriz
         .R(SR));
 endmodule
 
-(* ORIG_REF_NAME = "axi_dwidth_converter_v2_1_21_axi_downsizer" *) 
 module ULTRA96V2_auto_ds_1_axi_dwidth_converter_v2_1_21_axi_downsizer
    (E,
     command_ongoing_reg,
@@ -12596,7 +12592,6 @@ module ULTRA96V2_auto_ds_1_axi_dwidth_converter_v2_1_21_axi_downsizer
         .\m_axi_wdata[31]_INST_0_i_4 ({\USE_WRITE.wr_cmd_fix ,\USE_WRITE.wr_cmd_length }));
 endmodule
 
-(* ORIG_REF_NAME = "axi_dwidth_converter_v2_1_21_b_downsizer" *) 
 module ULTRA96V2_auto_ds_1_axi_dwidth_converter_v2_1_21_b_downsizer
    (\USE_WRITE.wr_cmd_b_ready ,
     s_axi_bvalid,
@@ -12901,7 +12896,6 @@ module ULTRA96V2_auto_ds_1_axi_dwidth_converter_v2_1_21_b_downsizer
         .O(s_axi_bvalid_INST_0_i_2_n_0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_dwidth_converter_v2_1_21_r_downsizer" *) 
 module ULTRA96V2_auto_ds_1_axi_dwidth_converter_v2_1_21_r_downsizer
    (first_mi_word,
     s_axi_rresp,
@@ -14012,8 +14006,8 @@ endmodule
 (* C_RATIO = "4" *) (* C_RATIO_LOG = "2" *) (* C_SUPPORTS_ID = "1" *) 
 (* C_SYNCHRONIZER_STAGE = "3" *) (* C_S_AXI_ACLK_RATIO = "1" *) (* C_S_AXI_BYTES_LOG = "4" *) 
 (* C_S_AXI_DATA_WIDTH = "128" *) (* C_S_AXI_ID_WIDTH = "16" *) (* DowngradeIPIdentifiedWarnings = "yes" *) 
-(* ORIG_REF_NAME = "axi_dwidth_converter_v2_1_21_top" *) (* P_AXI3 = "1" *) (* P_AXI4 = "0" *) 
-(* P_AXILITE = "2" *) (* P_CONVERSION = "2" *) (* P_MAX_SPLIT_BEATS = "256" *) 
+(* P_AXI3 = "1" *) (* P_AXI4 = "0" *) (* P_AXILITE = "2" *) 
+(* P_CONVERSION = "2" *) (* P_MAX_SPLIT_BEATS = "256" *) 
 module ULTRA96V2_auto_ds_1_axi_dwidth_converter_v2_1_21_top
    (s_axi_aclk,
     s_axi_aresetn,
@@ -14326,7 +14320,6 @@ module ULTRA96V2_auto_ds_1_axi_dwidth_converter_v2_1_21_top
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "axi_dwidth_converter_v2_1_21_w_downsizer" *) 
 module ULTRA96V2_auto_ds_1_axi_dwidth_converter_v2_1_21_w_downsizer
    (first_mi_word,
     \goreg_dm.dout_i_reg[9] ,
@@ -14599,9 +14592,8 @@ module ULTRA96V2_auto_ds_1_axi_dwidth_converter_v2_1_21_w_downsizer
 endmodule
 
 (* DEF_VAL = "1'b0" *) (* DEST_SYNC_FF = "2" *) (* INIT_SYNC_FF = "0" *) 
-(* INV_DEF_VAL = "1'b1" *) (* ORIG_REF_NAME = "xpm_cdc_async_rst" *) (* RST_ACTIVE_HIGH = "1" *) 
-(* VERSION = "0" *) (* XPM_MODULE = "TRUE" *) (* keep_hierarchy = "true" *) 
-(* xpm_cdc = "ASYNC_RST" *) 
+(* INV_DEF_VAL = "1'b1" *) (* RST_ACTIVE_HIGH = "1" *) (* VERSION = "0" *) 
+(* XPM_MODULE = "TRUE" *) (* keep_hierarchy = "true" *) (* xpm_cdc = "ASYNC_RST" *) 
 module ULTRA96V2_auto_ds_1_xpm_cdc_async_rst
    (src_arst,
     dest_clk,
@@ -14721,7 +14713,6 @@ module ULTRA96V2_auto_ds_1_xpm_cdc_async_rst__4
         .Q(arststages_ff[1]));
 endmodule
 
-(* ORIG_REF_NAME = "dmem" *) 
 module ULTRA96V2_auto_ds_1_dmem
    (dout_i,
     clk,
@@ -15580,7 +15571,6 @@ module ULTRA96V2_auto_ds_1_dmem__parameterized0_10
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "fifo_generator_ramfifo" *) 
 module ULTRA96V2_auto_ds_1_fifo_generator_ramfifo
    (empty,
     full,
@@ -15826,7 +15816,6 @@ module ULTRA96V2_auto_ds_1_fifo_generator_ramfifo__parameterized0__xdcDup__1
         .rst(rst));
 endmodule
 
-(* ORIG_REF_NAME = "fifo_generator_top" *) 
 module ULTRA96V2_auto_ds_1_fifo_generator_top
    (empty,
     full,
@@ -16010,7 +15999,7 @@ endmodule
 (* C_WR_DEPTH_WRCH = "16" *) (* C_WR_FREQ = "1" *) (* C_WR_PNTR_WIDTH = "5" *) 
 (* C_WR_PNTR_WIDTH_AXIS = "10" *) (* C_WR_PNTR_WIDTH_RACH = "4" *) (* C_WR_PNTR_WIDTH_RDCH = "10" *) 
 (* C_WR_PNTR_WIDTH_WACH = "4" *) (* C_WR_PNTR_WIDTH_WDCH = "10" *) (* C_WR_PNTR_WIDTH_WRCH = "4" *) 
-(* C_WR_RESPONSE_LATENCY = "1" *) (* ORIG_REF_NAME = "fifo_generator_v13_2_5" *) 
+(* C_WR_RESPONSE_LATENCY = "1" *) 
 module ULTRA96V2_auto_ds_1_fifo_generator_v13_2_5
    (backup,
     backup_marker,
@@ -19423,7 +19412,6 @@ module ULTRA96V2_auto_ds_1_fifo_generator_v13_2_5__parameterized0__xdcDup__1
         .wr_en(wr_en));
 endmodule
 
-(* ORIG_REF_NAME = "fifo_generator_v13_2_5_synth" *) 
 module ULTRA96V2_auto_ds_1_fifo_generator_v13_2_5_synth
    (empty,
     full,
@@ -19540,7 +19528,6 @@ module ULTRA96V2_auto_ds_1_fifo_generator_v13_2_5_synth__parameterized0__xdcDup_
         .wr_en(wr_en));
 endmodule
 
-(* ORIG_REF_NAME = "memory" *) 
 module ULTRA96V2_auto_ds_1_memory
    (dout,
     E,
@@ -20153,7 +20140,6 @@ module ULTRA96V2_auto_ds_1_memory__parameterized0_9
         .R(1'b0));
 endmodule
 
-(* ORIG_REF_NAME = "rd_bin_cntr" *) 
 module ULTRA96V2_auto_ds_1_rd_bin_cntr
    (Q,
     \gc0.count_d1_reg[4]_0 ,
@@ -20576,7 +20562,6 @@ module ULTRA96V2_auto_ds_1_rd_bin_cntr_6
         .Q(Q[4]));
 endmodule
 
-(* ORIG_REF_NAME = "rd_fwft" *) 
 module ULTRA96V2_auto_ds_1_rd_fwft
    (out,
     empty,
@@ -21131,7 +21116,6 @@ module ULTRA96V2_auto_ds_1_rd_fwft_4
         .Q(user_valid));
 endmodule
 
-(* ORIG_REF_NAME = "rd_logic" *) 
 module ULTRA96V2_auto_ds_1_rd_logic
    (out,
     \gpregsm1.curr_fwft_state_reg[1] ,
@@ -21308,7 +21292,6 @@ module ULTRA96V2_auto_ds_1_rd_logic_7
         .\gc0.count_d1_reg[4]_0 (\gc0.count_d1_reg[4] ));
 endmodule
 
-(* ORIG_REF_NAME = "rd_status_flags_ss" *) 
 module ULTRA96V2_auto_ds_1_rd_status_flags_ss
    (out,
     ram_empty_i_reg_0,
@@ -21434,7 +21417,6 @@ module ULTRA96V2_auto_ds_1_rd_status_flags_ss_5
         .Q(ram_empty_i));
 endmodule
 
-(* ORIG_REF_NAME = "reset_blk_ramfifo" *) 
 module ULTRA96V2_auto_ds_1_reset_blk_ramfifo
    (E,
     AR,
@@ -21800,7 +21782,6 @@ module ULTRA96V2_auto_ds_1_reset_blk_ramfifo__xdcDup__2
         .src_arst(rst));
 endmodule
 
-(* ORIG_REF_NAME = "wr_bin_cntr" *) 
 module ULTRA96V2_auto_ds_1_wr_bin_cntr
    (ram_full_comb,
     ram_full_fb_i_reg,
@@ -22535,7 +22516,6 @@ module ULTRA96V2_auto_ds_1_wr_bin_cntr_3
         .O(ram_full_fb_i_i_3_n_0));
 endmodule
 
-(* ORIG_REF_NAME = "wr_logic" *) 
 module ULTRA96V2_auto_ds_1_wr_logic
    (full,
     ram_full_fb_i_reg,
@@ -22721,7 +22701,6 @@ module ULTRA96V2_auto_ds_1_wr_logic_8
         .wr_en(wr_en));
 endmodule
 
-(* ORIG_REF_NAME = "wr_status_flags_ss" *) 
 module ULTRA96V2_auto_ds_1_wr_status_flags_ss
    (out,
     full,

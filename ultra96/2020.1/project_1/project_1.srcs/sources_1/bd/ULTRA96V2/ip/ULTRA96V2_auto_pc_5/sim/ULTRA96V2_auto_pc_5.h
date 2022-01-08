@@ -1,7 +1,7 @@
 #ifndef IP_ULTRA96V2_AUTO_PC_5_H_
 #define IP_ULTRA96V2_AUTO_PC_5_H_
 
-// (c) Copyright 1995-2021 Xilinx, Inc. All rights reserved.
+// (c) Copyright 1995-2022 Xilinx, Inc. All rights reserved.
 // 
 // This file contains confidential and proprietary information
 // of Xilinx, Inc. and is protected under U.S. and

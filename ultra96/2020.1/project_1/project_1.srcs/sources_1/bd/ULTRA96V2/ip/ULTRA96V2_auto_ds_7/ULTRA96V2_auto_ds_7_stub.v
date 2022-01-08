@@ -1,11 +1,11 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2020.1 (lin64) Build 2902540 Wed May 27 19:54:35 MDT 2020
-// Date        : Mon Mar  1 15:49:26 2021
-// Host        : ubuv1804 running 64-bit Ubuntu 18.04.4 LTS
+// Tool Version: Vivado v.2020.1.1 (lin64) Build 2960000 Wed Aug  5 22:57:21 MDT 2020
+// Date        : Sat Jan  8 14:48:38 2022
+// Host        : kd-client-b550-Asrock running 64-bit Ubuntu 20.04.3 LTS
 // Command     : write_verilog -force -mode synth_stub -rename_top ULTRA96V2_auto_ds_7 -prefix
-//               ULTRA96V2_auto_ds_7_ ULTRA96V2_auto_ds_1_stub.v
-// Design      : ULTRA96V2_auto_ds_1
+//               ULTRA96V2_auto_ds_7_ ULTRA96V2_auto_ds_0_stub.v
+// Design      : ULTRA96V2_auto_ds_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xczu3eg-sbva484-1-i
 // --------------------------------------------------------------------------------
@@ -13,7 +13,7 @@
 // This empty module with port declaration file causes synthesis tools to infer a black box for IP.
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
-(* X_CORE_INFO = "axi_dwidth_converter_v2_1_21_top,Vivado 2020.1" *)
+(* X_CORE_INFO = "axi_dwidth_converter_v2_1_21_top,Vivado 2020.1.1" *)
 module ULTRA96V2_auto_ds_7(s_axi_aclk, s_axi_aresetn, s_axi_awid, 
   s_axi_awaddr, s_axi_awlen, s_axi_awsize, s_axi_awburst, s_axi_awlock, s_axi_awcache, 
   s_axi_awprot, s_axi_awregion, s_axi_awqos, s_axi_awvalid, s_axi_awready, s_axi_wdata, 
