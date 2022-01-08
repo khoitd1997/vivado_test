@@ -4,7 +4,7 @@
       "boundary_crc": "0xAC24FFEED2950747",
       "device": "xczu3eg-sbva484-1-i",
       "name": "ULTRA96V2",
-      "pfm_name": "avnet.com:av:ULTRA96V2:1.0",
+      "pfm_name": "",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
       "tool_version": "2020.1",
