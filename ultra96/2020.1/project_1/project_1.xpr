@@ -87,6 +87,126 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_axi_bram_ctrl_0_0/ULTRA96V2_axi_bram_ctrl_0_0.xci">
+          <Proxy FileSetName="ULTRA96V2_axi_bram_ctrl_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_proc_sys_reset_0_0/ULTRA96V2_proc_sys_reset_0_0.xci">
+          <Proxy FileSetName="ULTRA96V2_proc_sys_reset_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_PWM_w_Int_1_0/ULTRA96V2_PWM_w_Int_1_0.xci">
+          <Proxy FileSetName="ULTRA96V2_PWM_w_Int_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_system_management_wiz_0_0/ULTRA96V2_system_management_wiz_0_0.xci">
+          <Proxy FileSetName="ULTRA96V2_system_management_wiz_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_zynq_ultra_ps_e_0_0/ULTRA96V2_zynq_ultra_ps_e_0_0.xci">
+          <Proxy FileSetName="ULTRA96V2_zynq_ultra_ps_e_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_xbar_0/ULTRA96V2_xbar_0.xci">
+          <Proxy FileSetName="ULTRA96V2_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_axi_uart16550_0_0/ULTRA96V2_axi_uart16550_0_0.xci">
+          <Proxy FileSetName="ULTRA96V2_axi_uart16550_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_axi_uart16550_1_0/ULTRA96V2_axi_uart16550_1_0.xci">
+          <Proxy FileSetName="ULTRA96V2_axi_uart16550_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_blk_mem_gen_0_0/ULTRA96V2_blk_mem_gen_0_0.xci">
+          <Proxy FileSetName="ULTRA96V2_blk_mem_gen_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_axi_gpio_1_0/ULTRA96V2_axi_gpio_1_0.xci">
+          <Proxy FileSetName="ULTRA96V2_axi_gpio_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_axi_gpio_0_0/ULTRA96V2_axi_gpio_0_0.xci">
+          <Proxy FileSetName="ULTRA96V2_axi_gpio_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_PWM_w_Int_0_0/ULTRA96V2_PWM_w_Int_0_0.xci">
+          <Proxy FileSetName="ULTRA96V2_PWM_w_Int_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_axi_gpio_2_0/ULTRA96V2_axi_gpio_2_0.xci">
+          <Proxy FileSetName="ULTRA96V2_axi_gpio_2_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_axi_intc_0_0/ULTRA96V2_axi_intc_0_0.xci">
+          <Proxy FileSetName="ULTRA96V2_axi_intc_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_clk_wiz_0_0/ULTRA96V2_clk_wiz_0_0.xci">
+          <Proxy FileSetName="ULTRA96V2_clk_wiz_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_proc_sys_reset_0_1/ULTRA96V2_proc_sys_reset_0_1.xci">
+          <Proxy FileSetName="ULTRA96V2_proc_sys_reset_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_proc_sys_reset_1_0/ULTRA96V2_proc_sys_reset_1_0.xci">
+          <Proxy FileSetName="ULTRA96V2_proc_sys_reset_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_proc_sys_reset_2_0/ULTRA96V2_proc_sys_reset_2_0.xci">
+          <Proxy FileSetName="ULTRA96V2_proc_sys_reset_2_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_proc_sys_reset_3_0/ULTRA96V2_proc_sys_reset_3_0.xci">
+          <Proxy FileSetName="ULTRA96V2_proc_sys_reset_3_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_proc_sys_reset_4_0/ULTRA96V2_proc_sys_reset_4_0.xci">
+          <Proxy FileSetName="ULTRA96V2_proc_sys_reset_4_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_proc_sys_reset_5_0/ULTRA96V2_proc_sys_reset_5_0.xci">
+          <Proxy FileSetName="ULTRA96V2_proc_sys_reset_5_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_proc_sys_reset_6_0/ULTRA96V2_proc_sys_reset_6_0.xci">
+          <Proxy FileSetName="ULTRA96V2_proc_sys_reset_6_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_ds_0/ULTRA96V2_auto_ds_0.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_ds_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_pc_0/ULTRA96V2_auto_pc_0.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_pc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_ds_1/ULTRA96V2_auto_ds_1.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_ds_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_pc_1/ULTRA96V2_auto_pc_1.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_pc_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_ds_2/ULTRA96V2_auto_ds_2.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_ds_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_pc_2/ULTRA96V2_auto_pc_2.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_pc_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_ds_3/ULTRA96V2_auto_ds_3.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_ds_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_pc_3/ULTRA96V2_auto_pc_3.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_pc_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_ds_4/ULTRA96V2_auto_ds_4.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_ds_4"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_pc_4/ULTRA96V2_auto_pc_4.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_pc_4"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_ds_5/ULTRA96V2_auto_ds_5.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_ds_5"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_pc_5/ULTRA96V2_auto_pc_5.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_pc_5"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_ds_6/ULTRA96V2_auto_ds_6.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_ds_6"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_pc_6/ULTRA96V2_auto_pc_6.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_pc_6"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_ds_7/ULTRA96V2_auto_ds_7.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_ds_7"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_pc_7/ULTRA96V2_auto_pc_7.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_pc_7"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_ds_8/ULTRA96V2_auto_ds_8.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_ds_8"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="ULTRA96V2.bd" FileRelPathName="ip/ULTRA96V2_auto_pc_8/ULTRA96V2_auto_pc_8.xci">
+          <Proxy FileSetName="ULTRA96V2_auto_pc_8"/>
+        </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/ULTRA96V2/hdl/ULTRA96V2_wrapper.vhd">
         <FileInfo>
