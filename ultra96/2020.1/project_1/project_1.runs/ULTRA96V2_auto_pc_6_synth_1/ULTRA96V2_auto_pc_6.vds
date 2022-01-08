@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Mar  1 15:53:52 2021
+# Process ID: 19094
+# Current directory: /home/training/git/avnet/hdl/Projects/ultra96v2_oob/ULTRA96V2_2020_1/ULTRA96V2.runs/ULTRA96V2_auto_pc_6_synth_1
+# Command line: vivado -log ULTRA96V2_auto_pc_6.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ULTRA96V2_auto_pc_6.tcl
+# Log file: /home/training/git/avnet/hdl/Projects/ultra96v2_oob/ULTRA96V2_2020_1/ULTRA96V2.runs/ULTRA96V2_auto_pc_6_synth_1/ULTRA96V2_auto_pc_6.vds
+# Journal file: /home/training/git/avnet/hdl/Projects/ultra96v2_oob/ULTRA96V2_2020_1/ULTRA96V2.runs/ULTRA96V2_auto_pc_6_synth_1/vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script '/tools/Xilinx/Vivado/2020.1/scripts/Vivado_init.tcl'
+2 Beta devices matching pattern found, 0 enabled.
+
+BDF path set to /home/training/git/avnet/bdf 
+
+
+source ULTRA96V2_auto_pc_6.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/training/git/avnet/hdl/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.1/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 2114.410 ; gain = 0.000 ; free physical = 7971 ; free virtual = 14631
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP ULTRA96V2_auto_pc_6, cache-ID = f6b93752c11fd610.
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  1 15:54:19 2021...

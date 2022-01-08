@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Mar  1 15:57:28 2021
+# Process ID: 19355
+# Current directory: /home/training/git/avnet/hdl/Projects/ultra96v2_oob/ULTRA96V2_2020_1/ULTRA96V2.runs/impl_1
+# Command line: vivado -log ULTRA96V2_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ULTRA96V2_wrapper.tcl -notrace
+# Log file: /home/training/git/avnet/hdl/Projects/ultra96v2_oob/ULTRA96V2_2020_1/ULTRA96V2.runs/impl_1/ULTRA96V2_wrapper.vdi
+# Journal file: /home/training/git/avnet/hdl/Projects/ultra96v2_oob/ULTRA96V2_2020_1/ULTRA96V2.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source ULTRA96V2_wrapper.tcl -notrace
