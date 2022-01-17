@@ -1,11 +1,11 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.1.1 (lin64) Build 2960000 Wed Aug  5 22:57:21 MDT 2020
-// Date        : Sat Jan  8 14:49:52 2022
+// Date        : Sun Jan 16 22:29:52 2022
 // Host        : kd-client-b550-Asrock running 64-bit Ubuntu 20.04.3 LTS
 // Command     : write_verilog -force -mode synth_stub -rename_top ULTRA96V2_auto_pc_3 -prefix
-//               ULTRA96V2_auto_pc_3_ ULTRA96V2_auto_pc_2_stub.v
-// Design      : ULTRA96V2_auto_pc_2
+//               ULTRA96V2_auto_pc_3_ ULTRA96V2_auto_pc_6_stub.v
+// Design      : ULTRA96V2_auto_pc_6
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xczu3eg-sbva484-1-i
 // --------------------------------------------------------------------------------

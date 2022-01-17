@@ -1,7 +1,7 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.1.1 (lin64) Build 2960000 Wed Aug  5 22:57:21 MDT 2020
-// Date        : Sat Jan  8 14:48:10 2022
+// Date        : Sun Jan 16 22:29:20 2022
 // Host        : kd-client-b550-Asrock running 64-bit Ubuntu 20.04.3 LTS
 // Command     : write_verilog -force -mode funcsim
 //               /home/kd/vivado_test/ultra96/2020.1/project_1/project_1.srcs/sources_1/bd/ULTRA96V2/ip/ULTRA96V2_proc_sys_reset_4_0/ULTRA96V2_proc_sys_reset_4_0_sim_netlist.v

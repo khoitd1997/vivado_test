@@ -1,10 +1,10 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.1.1 (lin64) Build 2960000 Wed Aug  5 22:57:21 MDT 2020
-// Date        : Sat Jan  8 14:49:33 2022
+// Date        : Sun Jan 16 22:29:39 2022
 // Host        : kd-client-b550-Asrock running 64-bit Ubuntu 20.04.3 LTS
-// Command     : write_verilog -force -mode funcsim -rename_top ULTRA96V2_s00_mmu_0 -prefix
-//               ULTRA96V2_s00_mmu_0_ ULTRA96V2_s00_mmu_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim
+//               /home/kd/vivado_test/ultra96/2020.1/project_1/project_1.srcs/sources_1/bd/ULTRA96V2/ip/ULTRA96V2_s00_mmu_0/ULTRA96V2_s00_mmu_0_sim_netlist.v
 // Design      : ULTRA96V2_s00_mmu_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -388,6 +388,7 @@ module ULTRA96V2_s00_mmu_0
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
+(* ORIG_REF_NAME = "axi_mmu_v2_1_19_decerr_slave" *) 
 module ULTRA96V2_s00_mmu_0_axi_mmu_v2_1_19_decerr_slave
    (err_awready,
     err_rvalid,
@@ -1394,10 +1395,11 @@ endmodule
 (* C_M_AXI_SUPPORTS_WRITE = "9'b111111111" *) (* C_NUM_RANGES = "9" *) (* C_PREFIX = "9'b000000000" *) 
 (* C_PREFIX_WIDTH = "1" *) (* C_RANGE_SIZE = "288'b000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000010000000000000000000000000000000100000000000000000000000000000001000000000000000000000000000000001101" *) (* C_S_AXI_ADDR_WIDTH = "40" *) 
 (* C_S_AXI_SUPPORTS_READ = "1" *) (* C_S_AXI_SUPPORTS_WRITE = "1" *) (* C_USES_DEST = "0" *) 
-(* DowngradeIPIdentifiedWarnings = "yes" *) (* P_AXI3 = "1" *) (* P_AXI4 = "0" *) 
-(* P_AXILITE = "2" *) (* P_DECERR = "2'b11" *) (* P_NUM_RANGES_LOG = "4" *) 
-(* R_DECERR = "2'b11" *) (* R_IDLE = "2'b00" *) (* R_PENDING = "2'b01" *) 
-(* W_DECERR = "2'b11" *) (* W_IDLE = "2'b00" *) (* W_PENDING = "2'b01" *) 
+(* DowngradeIPIdentifiedWarnings = "yes" *) (* ORIG_REF_NAME = "axi_mmu_v2_1_19_top" *) (* P_AXI3 = "1" *) 
+(* P_AXI4 = "0" *) (* P_AXILITE = "2" *) (* P_DECERR = "2'b11" *) 
+(* P_NUM_RANGES_LOG = "4" *) (* R_DECERR = "2'b11" *) (* R_IDLE = "2'b00" *) 
+(* R_PENDING = "2'b01" *) (* W_DECERR = "2'b11" *) (* W_IDLE = "2'b00" *) 
+(* W_PENDING = "2'b01" *) 
 module ULTRA96V2_s00_mmu_0_axi_mmu_v2_1_19_top
    (aclk,
     aresetn,
@@ -3223,6 +3225,7 @@ module ULTRA96V2_s00_mmu_0_axi_mmu_v2_1_19_top
         .O(s_axi_wready_INST_0_i_1_n_0));
 endmodule
 
+(* ORIG_REF_NAME = "axi_register_slice_v2_1_21_axi_register_slice" *) 
 module ULTRA96V2_s00_mmu_0_axi_register_slice_v2_1_21_axi_register_slice
    (\aresetn_d_reg[1] ,
     E,
@@ -3460,6 +3463,7 @@ module ULTRA96V2_s00_mmu_0_axi_register_slice_v2_1_21_axi_register_slice
         .w_mask(w_mask));
 endmodule
 
+(* ORIG_REF_NAME = "axi_register_slice_v2_1_21_axic_register_slice" *) 
 module ULTRA96V2_s00_mmu_0_axi_register_slice_v2_1_21_axic_register_slice
    (m_valid_i_reg_inv_0,
     D,

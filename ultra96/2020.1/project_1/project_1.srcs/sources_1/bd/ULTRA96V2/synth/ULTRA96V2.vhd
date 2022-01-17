@@ -1,7 +1,7 @@
 --Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2020.1.1 (lin64) Build 2960000 Wed Aug  5 22:57:21 MDT 2020
---Date        : Sat Jan  8 15:36:47 2022
+--Date        : Sun Jan 16 22:25:30 2022
 --Host        : kd-client-b550-Asrock running 64-bit Ubuntu 20.04.3 LTS
 --Command     : generate_target ULTRA96V2.bd
 --Design      : ULTRA96V2

@@ -320,6 +320,7 @@ proc create_root_design { parentCell } {
   set system_management_wiz_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:system_management_wiz:1.3 system_management_wiz_0 ]
   set_property -dict [ list \
    CONFIG.CHANNEL_ENABLE_VP_VN {false} \
+   CONFIG.ENABLE_RESET {false} \
    CONFIG.ENABLE_VCCPSAUX_ALARM {false} \
    CONFIG.ENABLE_VCCPSINTFP_ALARM {false} \
    CONFIG.ENABLE_VCCPSINTLP_ALARM {false} \

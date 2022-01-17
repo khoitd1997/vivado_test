@@ -1,18 +1,18 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.1.1 (lin64) Build 2960000 Wed Aug  5 22:57:21 MDT 2020
-// Date        : Sat Jan  8 14:50:03 2022
+// Date        : Sun Jan 16 22:29:52 2022
 // Host        : kd-client-b550-Asrock running 64-bit Ubuntu 20.04.3 LTS
 // Command     : write_verilog -force -mode funcsim -rename_top ULTRA96V2_auto_ds_4 -prefix
-//               ULTRA96V2_auto_ds_4_ ULTRA96V2_auto_ds_2_sim_netlist.v
-// Design      : ULTRA96V2_auto_ds_2
+//               ULTRA96V2_auto_ds_4_ ULTRA96V2_auto_ds_8_sim_netlist.v
+// Design      : ULTRA96V2_auto_ds_8
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
 // Device      : xczu3eg-sbva484-1-i
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "ULTRA96V2_auto_ds_2,axi_dwidth_converter_v2_1_21_top,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* X_CORE_INFO = "axi_dwidth_converter_v2_1_21_top,Vivado 2020.1.1" *) 
+(* CHECK_LICENSE_TYPE = "ULTRA96V2_auto_ds_8,axi_dwidth_converter_v2_1_21_top,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* X_CORE_INFO = "axi_dwidth_converter_v2_1_21_top,Vivado 2020.1.1" *) 
 (* NotValidForBitStream *)
 module ULTRA96V2_auto_ds_4
    (s_axi_aclk,
