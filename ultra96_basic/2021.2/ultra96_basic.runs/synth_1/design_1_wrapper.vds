@@ -1,0 +1,278 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Jan 17 08:15:25 2022
+# Process ID: 547574
+# Current directory: /home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.runs/synth_1
+# Command line: vivado -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: /home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.runs/synth_1/design_1_wrapper.vds
+# Journal file: /home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.runs/synth_1/vivado.jou
+# Running On: kd-client-b550-Asrock, OS: Linux, CPU Frequency: 2200.000 MHz, CPU Physical cores: 16, Host memory: 33586 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2021.2/data/ip'.
+Command: synth_design -top design_1_wrapper -part xczu3eg-sbva484-1-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 547636
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2921.469 ; gain = 140.797 ; free physical = 2784 ; free virtual = 52984
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:18]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:13]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:22]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wiz_0_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.runs/synth_1/.Xil/Vivado-547574-kd-client-b550-Asrock/realtime/design_1_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wiz_0_0' (1#1) [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.runs/synth_1/.Xil/Vivado-547574-kd-client-b550-Asrock/realtime/design_1_clk_wiz_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'clk_out1' of module 'design_1_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:22]
+WARNING: [Synth 8-7071] port 'locked' of module 'design_1_clk_wiz_0_0' is unconnected for instance 'clk_wiz_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:22]
+WARNING: [Synth 8-7023] instance 'clk_wiz_0' of module 'design_1_clk_wiz_0_0' has 4 connections declared, but only 2 given [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:22]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:25]
+INFO: [Synth 8-6157] synthesizing module 'design_1_proc_sys_reset_0_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.runs/synth_1/.Xil/Vivado-547574-kd-client-b550-Asrock/realtime/design_1_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_proc_sys_reset_0_0' (2#1) [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.runs/synth_1/.Xil/Vivado-547574-kd-client-b550-Asrock/realtime/design_1_proc_sys_reset_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:25]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:25]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:25]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:25]
+WARNING: [Synth 8-7071] port 'peripheral_aresetn' of module 'design_1_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:25]
+WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'design_1_proc_sys_reset_0_0' has 10 connections declared, but only 5 given [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:25]
+INFO: [Synth 8-6157] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.runs/synth_1/.Xil/Vivado-547574-kd-client-b550-Asrock/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_zynq_ultra_ps_e_0_0' (3#1) [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.runs/synth_1/.Xil/Vivado-547574-kd-client-b550-Asrock/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'maxigp2_awid' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_awaddr' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_awlen' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_awsize' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_awburst' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_awlock' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_awcache' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_awprot' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_awvalid' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_awuser' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_wdata' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_wstrb' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_wlast' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_wvalid' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_bready' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_arid' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_araddr' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_arlen' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_arsize' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_arburst' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_arlock' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_arcache' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_arprot' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_arvalid' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_aruser' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_rready' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_awqos' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'maxigp2_arqos' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'emio_enet3_speed_mode' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'emio_enet3_gmii_txd' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'emio_enet3_gmii_tx_en' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'emio_enet3_gmii_tx_er' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'emio_enet3_tsu_timer_cmp_val' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'emio_enet3_dma_bus_width' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'emio_uart0_rtsn' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7071] port 'emio_uart0_dtrn' of module 'design_1_zynq_ultra_ps_e_0_0' is unconnected for instance 'zynq_ultra_ps_e_0' [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+WARNING: [Synth 8-7023] instance 'zynq_ultra_ps_e_0' of module 'design_1_zynq_ultra_ps_e_0_0' has 63 connections declared, but only 27 given [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (4#1) [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (5#1) [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2968.406 ; gain = 187.734 ; free physical = 2819 ; free virtual = 53019
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2986.219 ; gain = 205.547 ; free physical = 3679 ; free virtual = 53879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2986.219 ; gain = 205.547 ; free physical = 3679 ; free virtual = 53879
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2986.219 ; gain = 0.000 ; free physical = 3672 ; free virtual = 53872
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+Parsing XDC File [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_in_context.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Finished Parsing XDC File [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_in_context.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Parsing XDC File [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+Finished Parsing XDC File [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/clk_wiz_0'
+Parsing XDC File [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3080.969 ; gain = 0.000 ; free physical = 3634 ; free virtual = 53838
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3080.969 ; gain = 0.000 ; free physical = 3634 ; free virtual = 53839
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 3080.969 ; gain = 300.297 ; free physical = 3701 ; free virtual = 53905
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 3080.969 ; gain = 300.297 ; free physical = 3701 ; free virtual = 53905
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/proc_sys_reset_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/clk_wiz_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 3080.969 ; gain = 300.297 ; free physical = 3701 ; free virtual = 53905
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 3080.969 ; gain = 300.297 ; free physical = 3700 ; free virtual = 53905
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 3080.969 ; gain = 300.297 ; free physical = 3700 ; free virtual = 53909
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 3510.508 ; gain = 729.836 ; free physical = 3137 ; free virtual = 53345
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 3510.508 ; gain = 729.836 ; free physical = 3137 ; free virtual = 53345
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 3529.539 ; gain = 748.867 ; free physical = 3135 ; free virtual = 53344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3535.477 ; gain = 754.805 ; free physical = 3135 ; free virtual = 53344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3535.477 ; gain = 754.805 ; free physical = 3135 ; free virtual = 53344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3535.477 ; gain = 754.805 ; free physical = 3135 ; free virtual = 53344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3535.477 ; gain = 754.805 ; free physical = 3135 ; free virtual = 53344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3535.477 ; gain = 754.805 ; free physical = 3135 ; free virtual = 53344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3535.477 ; gain = 754.805 ; free physical = 3135 ; free virtual = 53344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------+----------+
+|      |BlackBox name                |Instances |
++------+-----------------------------+----------+
+|1     |design_1_clk_wiz_0_0         |         1|
+|2     |design_1_proc_sys_reset_0_0  |         1|
+|3     |design_1_zynq_ultra_ps_e_0_0 |         1|
++------+-----------------------------+----------+
+
+Report Cell Usage: 
++------+---------------------------+------+
+|      |Cell                       |Count |
++------+---------------------------+------+
+|1     |design_1_clk_wiz_0         |     1|
+|2     |design_1_proc_sys_reset_0  |     1|
+|3     |design_1_zynq_ultra_ps_e_0 |     1|
+|4     |IBUF                       |     1|
++------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3535.477 ; gain = 754.805 ; free physical = 3135 ; free virtual = 53344
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 3535.477 ; gain = 660.055 ; free physical = 3176 ; free virtual = 53385
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 3535.484 ; gain = 754.805 ; free physical = 3176 ; free virtual = 53385
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3549.414 ; gain = 0.000 ; free physical = 3267 ; free virtual = 53475
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3562.289 ; gain = 0.000 ; free physical = 3204 ; free virtual = 53413
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 1 instance 
+
+Synth Design complete, checksum: bfa26df0
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 50 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:25 . Memory (MB): peak = 3562.289 ; gain = 805.617 ; free physical = 3399 ; free virtual = 53608
+INFO: [Common 17-1381] The checkpoint '/home/kd/vivado_test/ultra96_basic/2021.2/ultra96_basic.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 17 08:16:00 2022...
